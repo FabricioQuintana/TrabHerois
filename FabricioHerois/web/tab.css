@@ -1,0 +1,33 @@
+table{
+    border: double;
+}
+th{
+    border: double;
+}
+td{
+    border: double;
+}
+.aco{
+    border: double;
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 30px;
+}
+form{
+    text-align: center;
+}
+.nov{
+   font-size: 25px;
+   text-align: right;
+}
+
+h1{
+    text-align: center;
+}
+.lin{
+    text-align: center;
+}
+label{
+  text-align: center;
+  
+}

@@ -1,0 +1,13 @@
+SMAP
+re_002dok_jsp.java
+JSP
+*S JSP
+*F
++ 0 cabecalho.jsp
+regiao/../cabecalho.jsp
++ 1 re-ok.jsp
+regiao/re-ok.jsp
+*L
+5,12:49
+1#1,9:61
+*E

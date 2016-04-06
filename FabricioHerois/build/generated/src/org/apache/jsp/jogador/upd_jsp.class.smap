@@ -1,0 +1,13 @@
+SMAP
+upd_jsp.java
+JSP
+*S JSP
+*F
++ 0 cabecalho.jsp
+jogador/../cabecalho.jsp
++ 1 upd.jsp
+jogador/upd.jsp
+*L
+5,21:49
+1#1,27:70
+*E

@@ -1,0 +1,13 @@
+SMAP
+upd_jsp.java
+JSP
+*S JSP
+*F
++ 0 cabecalho.jsp
+editora/../cabecalho.jsp
++ 1 upd.jsp
+editora/upd.jsp
+*L
+5,17:49
+1#1,25:66
+*E

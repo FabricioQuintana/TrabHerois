@@ -1,0 +1,13 @@
+SMAP
+dele_jsp.java
+JSP
+*S JSP
+*F
++ 0 cabecalho.jsp
+categoria/../cabecalho.jsp
++ 1 dele.jsp
+categoria/dele.jsp
+*L
+5,12:49
+1#1,10:61
+*E

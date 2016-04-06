@@ -1,0 +1,13 @@
+SMAP
+index_jsp.java
+JSP
+*S JSP
+*F
++ 0 
+jogador/../cabecalho.jsp/
++ 1 index.jsp
+jogador/index.jsp
+*L
+5,21:49
+1#1,46:70
+*E
