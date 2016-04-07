@@ -1,6 +1,6 @@
 
 <%
-if(request.getParameter("txemail")==null){
+if(request.getParameter("txtemail")==null){
     response.sendRedirect("index.jsp");
 }
 if(request.getParameter("txtemail").isEmpty()){

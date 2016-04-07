@@ -1,4 +1,4 @@
-package org.apache.jsp.editora;
+package org.apache.jsp.regiao;
 
 import javax.servlet.*;
 import javax.servlet.http.*;
@@ -13,7 +13,7 @@ public final class add_jsp extends org.apache.jasper.runtime.HttpJspBase
 
   static {
     _jspx_dependants = new java.util.ArrayList<String>(1);
-    _jspx_dependants.add("/editora/../cabecalho.jsp");
+    _jspx_dependants.add("/regiao/../cabecalho.jsp");
   }
 
   private org.glassfish.jsp.api.ResourceInjector _jspx_resourceInjector;
@@ -71,28 +71,26 @@ public final class add_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("    </nav>\n");
       out.write("    </div>");
       out.write("\n");
-      out.write("\n");
       out.write("<div>\n");
-      out.write("    <h1>Nova editora</h1>\n");
-      out.write("    <div>\n");
-      out.write("        <form action=\"add-ok.jsp\" method=\"post\">\n");
-      out.write("       \n");
+      out.write("        <h1>Nova região</h1>\n");
+      out.write("        <div>\n");
+      out.write("            <form action=\"add-ok.jsp\" method=\"post\">\n");
       out.write("\n");
       out.write("            <label>Nome:</label>\n");
       out.write("            <input type=\"text\" name=\"txtnome\" placeholder=\"Digite o novo nome\">\n");
       out.write("\n");
       out.write("\n");
       out.write("\n");
-      out.write("            <label>Data de fundação:</label>\n");
-      out.write("            <input type=\"text\" name=\"txtdata\" placeholder=\"Digite a nova data\">\n");
+      out.write("            <label>Descrição:</label>\n");
+      out.write("            <input type=\"text\" name=\"txtdes\" placeholder=\"Digita a nova descrição\">\n");
       out.write("\n");
       out.write("   <input type=\"reset\" value=\"Limpar\">\n");
       out.write("        <input type=\"submit\" value=\"Enviar\">\n");
-      out.write("        </form>\n");
-      out.write("     \n");
-      out.write("    </div>\n");
+      out.write("                \n");
+      out.write("            </form>\n");
+      out.write("        </div>\n");
       out.write("</div>\n");
-      out.write("</body>\n");
+      out.write("    </body>\n");
       out.write("</html>\n");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){

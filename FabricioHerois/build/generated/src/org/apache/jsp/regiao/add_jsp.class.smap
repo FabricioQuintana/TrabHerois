@@ -4,10 +4,10 @@ JSP
 *S JSP
 *F
 + 0 cabecalho.jsp
-editora/../cabecalho.jsp
+regiao/../cabecalho.jsp
 + 1 add.jsp
-editora/add.jsp
+regiao/add.jsp
 *L
 5,24:49
-1#1,25:73
+1#1,23:73
 *E

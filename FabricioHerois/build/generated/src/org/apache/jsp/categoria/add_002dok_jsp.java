@@ -1,10 +1,10 @@
-package org.apache.jsp.editora;
+package org.apache.jsp.categoria;
 
 import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.jsp.*;
 
-public final class add_jsp extends org.apache.jasper.runtime.HttpJspBase
+public final class add_002dok_jsp extends org.apache.jasper.runtime.HttpJspBase
     implements org.apache.jasper.runtime.JspSourceDependent {
 
   private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
@@ -13,7 +13,7 @@ public final class add_jsp extends org.apache.jasper.runtime.HttpJspBase
 
   static {
     _jspx_dependants = new java.util.ArrayList<String>(1);
-    _jspx_dependants.add("/editora/../cabecalho.jsp");
+    _jspx_dependants.add("/categoria/../cabecalho.jsp");
   }
 
   private org.glassfish.jsp.api.ResourceInjector _jspx_resourceInjector;
@@ -46,6 +46,16 @@ public final class add_jsp extends org.apache.jasper.runtime.HttpJspBase
       _jspx_out = out;
       _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
 
+
+if(request.getParameter("txtnome")==null){
+    response.sendRedirect("index.jsp");
+}
+if(request.getParameter("txtnome").isEmpty()){
+    response.sendRedirect("index.jsp");
+}
+
+      out.write('\n');
+      out.write('\n');
       out.write("\n");
       out.write("\n");
       out.write("\n");
@@ -72,28 +82,15 @@ public final class add_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("    </div>");
       out.write("\n");
       out.write("\n");
+      out.write("\n");
+      out.write("<h1>Novo cadastro</h1>\n");
       out.write("<div>\n");
-      out.write("    <h1>Nova editora</h1>\n");
-      out.write("    <div>\n");
-      out.write("        <form action=\"add-ok.jsp\" method=\"post\">\n");
-      out.write("       \n");
+      out.write("    Cadastrado com sucesso.<br />\n");
       out.write("\n");
-      out.write("            <label>Nome:</label>\n");
-      out.write("            <input type=\"text\" name=\"txtnome\" placeholder=\"Digite o novo nome\">\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("            <label>Data de fundação:</label>\n");
-      out.write("            <input type=\"text\" name=\"txtdata\" placeholder=\"Digite a nova data\">\n");
-      out.write("\n");
-      out.write("   <input type=\"reset\" value=\"Limpar\">\n");
-      out.write("        <input type=\"submit\" value=\"Enviar\">\n");
-      out.write("        </form>\n");
-      out.write("     \n");
-      out.write("    </div>\n");
+      out.write("    <a href=\"index.jsp\">Voltar para Listagem</a>\n");
       out.write("</div>\n");
       out.write("</body>\n");
-      out.write("</html>\n");
+      out.write("</html>");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){
         out = _jspx_out;

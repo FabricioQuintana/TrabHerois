@@ -5,7 +5,7 @@
             <form action="add-ok.jsp" method="post">
 
             <label>Nome:</label>
-            <input type="text" name="txtname" placeholder="Digite o novo nome">
+            <input type="text" name="txtnome" placeholder="Digite o novo nome">
 
 
 
